@@ -1,11 +1,11 @@
-#Plain
+# Plain
 
-##Description
+## Description
 Santa has received a letter from his freind Markov. But santa couldn't get what he means
-###hint:
+### hint:
 Default should be enough !
 
-##Solution
+## Solution
 The text we got looks like normal readable text but it makes no sense.
 Here we used the Markov Chain to hide the flag
 there is already a python implementation on Markov chains we can use it to hide and to extract hidden data 
