@@ -1,0 +1,10 @@
+https://github.com/hmoraldo/markovTextStego
+
+
+to generate a text out of some input file input.data:
+
+python commandline.py encodeFullText --markovInput data/markovChain.json --wordsPerState 1 input.data encoded.txt
+
+to decode a text file encoded.txt to the original input data:
+
+python commandline.py decodeFullText --markovInput data/markovChain.json --wordsPerState 1 encoded.txt output.data
